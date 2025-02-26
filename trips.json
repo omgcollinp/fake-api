@@ -5,9 +5,18 @@
     "email": "collin@example.com"
   },
   "trip_details": {
-    "destination": "Cancún, Mexico",
-    "departure_date": "2025-04-15",
-    "return_date": "2025-04-22",
+    "destinations": [
+      {
+        "name": "San Pedro, Belize",
+        "arrival_date": "2025-04-04",
+        "departure_date": "2025-04-06"
+      },
+      {
+        "name": "Caye Caulker",
+        "arrival_date": "2025-04-06",
+        "departure_date": "2025-04-10"
+      }
+    ],
     "purpose": ["Vacation"],
     "travel_companions": [
       {
@@ -19,133 +28,106 @@
   "flights": {
     "departure": {
       "airline": "Delta Airlines",
-      "flight_number": "DL1234",
+      "flight_number": "DL5678",
       "departure_airport": {
         "code": "ATL",
         "name": "Hartsfield-Jackson Atlanta International Airport",
         "city": "Atlanta",
         "country": "USA"
       },
-      "departure_time": "2025-04-15T08:30:00Z",
+      "departure_time": "2025-04-04T10:03:00Z",
       "arrival_airport": {
-        "code": "CUN",
-        "name": "Cancún International Airport",
-        "city": "Cancún",
-        "country": "Mexico"
+        "code": "BZE",
+        "name": "Philip S. W. Goldson International Airport",
+        "city": "Belize City",
+        "country": "Belize"
       },
-      "arrival_time": "2025-04-15T11:45:00Z",
+      "arrival_time": "2025-04-04T13:30:00Z",
       "seat": "12A",
       "class": "Business"
     },
     "return": {
       "airline": "Delta Airlines",
-      "flight_number": "DL5678",
+      "flight_number": "DL6789",
       "departure_airport": {
-        "code": "CUN",
-        "name": "Cancún International Airport",
-        "city": "Cancún",
-        "country": "Mexico"
+        "code": "BZE",
+        "name": "Philip S. W. Goldson International Airport",
+        "city": "Belize City",
+        "country": "Belize"
       },
-      "departure_time": "2025-04-22T15:00:00Z",
+      "departure_time": "2025-04-12T14:40:00Z",
       "arrival_airport": {
         "code": "ATL",
         "name": "Hartsfield-Jackson Atlanta International Airport",
         "city": "Atlanta",
         "country": "USA"
       },
-      "arrival_time": "2025-04-22T18:30:00Z",
+      "arrival_time": "2025-04-12T18:30:00Z",
       "seat": "10B",
       "class": "Business"
     }
   },
   "accommodations": [
     {
-      "type": "All-Inclusive Resort",
-      "name": "Hyatt Zilara Cancún",
-      "address": "Blvd. Kukulcan, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
-      "check_in": "2025-04-15T14:00:00Z",
-      "check_out": "2025-04-19T11:00:00Z",
-      "room_type": "Oceanfront King Suite",
+      "type": "Resort",
+      "name": "Mahogany Bay Resort & Beach Club, Curio Collection by Hilton",
+      "address": "San Pedro, Ambergris Caye, Belize",
+      "check_in": "2025-04-04T14:00:00Z",
+      "check_out": "2025-04-06T11:00:00Z",
+      "room_type": "Beachfront Villa",
       "amenities": [
-        "Private Balcony"
+        "Private Balcony", "Infinity Pool", "Beach Club Access"
       ]
     },
     {
-      "type": "Boutique Hotel",
-      "name": "Casa Blanca Tulum",
-      "address": "Calle Polar Pte, Tulum Centro, 77760 Tulum, Q.R., Mexico",
-      "check_in": "2025-04-19T15:00:00Z",
-      "check_out": "2025-04-22T11:00:00Z",
-      "room_type": "Jungle View Suite",
+      "type": "Airbnb",
+      "name": "Seaside Bungalow",
+      "address": "Caye Caulker, Belize",
+      "check_in": "2025-04-06T15:00:00Z",
+      "check_out": "2025-04-10T11:00:00Z",
+      "room_type": "Private Bungalow",
       "amenities": [
-        "Private Pool"
+        "Ocean View", "Private Deck", "Kitchenette"
       ]
     }
   ],
   "itinerary": [
     {
-      "date": "2025-04-16",
+      "date": "2025-04-05",
+      "location": "San Pedro, Belize",
       "morning": {
         "food_options": [
           {
-            "name": "Resort Breakfast Buffet",
-            "address": "Hyatt Zilara Cancún, Zona Hotelera, Cancún, Mexico",
-            "cuisine": "Mexican & International"
+            "name": "The Baker",
+            "address": "San Pedro, Ambergris Caye, Belize",
+            "cuisine": "Bakery & Coffee"
           }
         ],
         "activities": [
           {
-            "activity": "Snorkeling at Isla Mujeres",
-            "location": "Isla Mujeres",
+            "activity": "Snorkeling at Hol Chan Marine Reserve",
+            "location": "Hol Chan Marine Reserve, Belize",
             "time": "9:00 AM - 11:30 AM"
           }
         ]
-      },
+      }
+    },
+    {
+      "date": "2025-04-09",
+      "location": "Caye Caulker",
       "afternoon": {
         "food_options": [
           {
-            "name": "Mar-Bella Fish Market",
-            "address": "Carretera Puerto Juarez, Cancún, Mexico",
-            "cuisine": "Seafood"
+            "name": "Maggie’s Sunset Kitchen",
+            "address": "Caye Caulker, Belize",
+            "cuisine": "Belizean & Seafood"
           }
         ],
         "activities": [
           {
-            "activity": "Relaxing at the resort pool",
-            "location": "Hyatt Zilara",
+            "activity": "Relaxing at the Split",
+            "location": "The Split, Caye Caulker",
             "time": "2:00 PM - 4:30 PM"
-          }
-        ]
-      },
-      "dinner": {
-        "food_options": [
-          {
-            "name": "Rosa Negra Cancún",
-            "address": "Blvd. Kukulcan, Zona Hotelera, Cancún, Mexico",
-            "cuisine": "Latin American"
-          }
-        ],
-        "activities": [
-          {
-            "activity": "Romantic Beach Walk",
-            "location": "Cancún Beach",
-            "time": "8:00 PM - 9:30 PM"
-          }
-        ]
-      },
-      "late_night": {
-        "food_options": [
-          {
-            "name": "Taco Stand in Downtown Cancún",
-            "address": "Av. Tulum, Cancún, Mexico",
-            "cuisine": "Mexican Street Food"
-          }
-        ],
-        "activities": [
-          {
-            "activity": "Live Music & Dancing",
-            "location": "Coco Bongo Club",
-            "time": "11:00 PM - 2:00 AM"
           }
         ]
       }
