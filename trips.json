@@ -1,0 +1,154 @@
+{
+  "traveler": {
+    "name": "Collin Partee",
+    "age": 32,
+    "email": "collin@example.com"
+  },
+  "trip_details": {
+    "destination": "Cancún, Mexico",
+    "departure_date": "2025-04-15",
+    "return_date": "2025-04-22",
+    "purpose": ["Vacation"],
+    "travel_companions": [
+      {
+        "name": "Whitlei Partee",
+        "relationship": "Spouse"
+      }
+    ]
+  },
+  "flights": {
+    "departure": {
+      "airline": "Delta Airlines",
+      "flight_number": "DL1234",
+      "departure_airport": {
+        "code": "ATL",
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "country": "USA"
+      },
+      "departure_time": "2025-04-15T08:30:00Z",
+      "arrival_airport": {
+        "code": "CUN",
+        "name": "Cancún International Airport",
+        "city": "Cancún",
+        "country": "Mexico"
+      },
+      "arrival_time": "2025-04-15T11:45:00Z",
+      "seat": "12A",
+      "class": "Business"
+    },
+    "return": {
+      "airline": "Delta Airlines",
+      "flight_number": "DL5678",
+      "departure_airport": {
+        "code": "CUN",
+        "name": "Cancún International Airport",
+        "city": "Cancún",
+        "country": "Mexico"
+      },
+      "departure_time": "2025-04-22T15:00:00Z",
+      "arrival_airport": {
+        "code": "ATL",
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "country": "USA"
+      },
+      "arrival_time": "2025-04-22T18:30:00Z",
+      "seat": "10B",
+      "class": "Business"
+    }
+  },
+  "accommodations": [
+    {
+      "type": "All-Inclusive Resort",
+      "name": "Hyatt Zilara Cancún",
+      "address": "Blvd. Kukulcan, Zona Hotelera, 77500 Cancún, Q.R., Mexico",
+      "check_in": "2025-04-15T14:00:00Z",
+      "check_out": "2025-04-19T11:00:00Z",
+      "room_type": "Oceanfront King Suite",
+      "amenities": [
+        "Private Balcony"
+      ]
+    },
+    {
+      "type": "Boutique Hotel",
+      "name": "Casa Blanca Tulum",
+      "address": "Calle Polar Pte, Tulum Centro, 77760 Tulum, Q.R., Mexico",
+      "check_in": "2025-04-19T15:00:00Z",
+      "check_out": "2025-04-22T11:00:00Z",
+      "room_type": "Jungle View Suite",
+      "amenities": [
+        "Private Pool"
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "date": "2025-04-16",
+      "morning": {
+        "food_options": [
+          {
+            "name": "Resort Breakfast Buffet",
+            "address": "Hyatt Zilara Cancún, Zona Hotelera, Cancún, Mexico",
+            "cuisine": "Mexican & International"
+          }
+        ],
+        "activities": [
+          {
+            "activity": "Snorkeling at Isla Mujeres",
+            "location": "Isla Mujeres",
+            "time": "9:00 AM - 11:30 AM"
+          }
+        ]
+      },
+      "afternoon": {
+        "food_options": [
+          {
+            "name": "Mar-Bella Fish Market",
+            "address": "Carretera Puerto Juarez, Cancún, Mexico",
+            "cuisine": "Seafood"
+          }
+        ],
+        "activities": [
+          {
+            "activity": "Relaxing at the resort pool",
+            "location": "Hyatt Zilara",
+            "time": "2:00 PM - 4:30 PM"
+          }
+        ]
+      },
+      "dinner": {
+        "food_options": [
+          {
+            "name": "Rosa Negra Cancún",
+            "address": "Blvd. Kukulcan, Zona Hotelera, Cancún, Mexico",
+            "cuisine": "Latin American"
+          }
+        ],
+        "activities": [
+          {
+            "activity": "Romantic Beach Walk",
+            "location": "Cancún Beach",
+            "time": "8:00 PM - 9:30 PM"
+          }
+        ]
+      },
+      "late_night": {
+        "food_options": [
+          {
+            "name": "Taco Stand in Downtown Cancún",
+            "address": "Av. Tulum, Cancún, Mexico",
+            "cuisine": "Mexican Street Food"
+          }
+        ],
+        "activities": [
+          {
+            "activity": "Live Music & Dancing",
+            "location": "Coco Bongo Club",
+            "time": "11:00 PM - 2:00 AM"
+          }
+        ]
+      }
+    }
+  ]
+}
